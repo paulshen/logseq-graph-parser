@@ -10,6 +10,6 @@
     "path": "^0.12.7"
   },
   "scripts": {
-    "build": "shadow-cljs release app"
+    "build": "shadow-cljs compile app"
   }
 }
