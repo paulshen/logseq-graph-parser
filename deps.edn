@@ -1,0 +1,17 @@
+{:paths ["src/main"]
+ :deps
+ {org.clojure/clojure                   {:mvn/version "1.10.0"}
+  thheller/shadow-cljs                  {:mvn/version "2.19.0"}
+  datascript/datascript                 {:mvn/version "1.3.8"}
+
+  logseq/db
+  {:git/url "https://github.com/logseq/logseq"
+   :git/sha "23e46588b35d85461e93ac470fbb87f16818d45a"
+   :deps/root "deps/db"}
+
+  logseq/graph-parser
+  {:git/url "https://github.com/logseq/logseq"
+   :git/sha "23e46588b35d85461e93ac470fbb87f16818d45a"
+   :deps/root "deps/graph-parser"}}
+
+ :aliases {:cljs {:extra-deps  {org.clojure/clojurescript {:mvn/version "1.11.54"}}}}}
